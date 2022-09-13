@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+body{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main{
+    margin: 1rem 1rem;
+    background-color: rgba(191, 237, 245, 0.5);
+    padding: 0.5rem 3rem;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 8px 15px rgba(36, 35, 35, 0.5);
+    
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.nav-items > li {
+    padding: 2rem;
+    margin-right: 2rem;
+}
+.nav-items > li a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: 700;
+    background-color: azure;
+    padding: 0.5rem 1rem;
+    border-radius: 45px;
+    box-shadow: 5px 4px 5px rgba(36, 35, 35, 0.5);
+    
+}
+.nav-logo{
+    width: 150px;
+    margin-left: 3rem;
+}
+.title{
+    color: lightseagreen;
+    margin-top: 2rem;
+}
+.reasons{
+    display: flex;
+    justify-content: space-between;
+    color: lightseagreen;
+    line-height: 2.5;
+    padding-bottom: 1rem;
+    margin: 1rem 6rem;
+    
+}
+.ree li{
+list-style: none;
+}
+.footer{
+    background-color: lightseagreen;
+    margin-top:8rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    
+}
