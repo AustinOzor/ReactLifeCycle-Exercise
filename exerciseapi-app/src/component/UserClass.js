@@ -11,8 +11,9 @@ export default class UserClass extends Component {
             data.json()
                 .then((results) => {
                     this.setState({ users: results })
-                    console.log(results)
-                }).catch((error) => { console.log(error)})
+                    console.log(results);
+                }).catch((error)=> {
+                    console.log(error);})
         })
     }
     render() {
